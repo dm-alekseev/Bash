@@ -9,4 +9,4 @@ Being filled
 export TELEGRAM_CHAT_ID="..." \
 export TELEGRAM_TOKEN="..."
 \
-curl -s "https://api.telegram.org/bot"token"/getUpdates"  check id chat 
+curl -s "https://api.telegram.org/bot"token"/getUpdates"  get id chat 
