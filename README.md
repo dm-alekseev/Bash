@@ -12,3 +12,5 @@ export TELEGRAM_TOKEN="..."
 ```
 
 `curl -s "https://api.telegram.org/bot"token"/getUpdates"`  get id chat
+
+source ~/.bashrc  
