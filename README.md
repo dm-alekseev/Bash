@@ -1,7 +1,7 @@
 # Bash
 Being filled
 
-
+[Wiki](https://github.com/dm-alekseev/Bash/wiki)
 \
 \
 \
