@@ -1,0 +1,7 @@
+[Unit]
+Description=Monitor process 'test' and notify server
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/test_monitor.sh
