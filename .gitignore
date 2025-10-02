@@ -1,0 +1,35 @@
+# Игнорируем общие временные файлы и кэш
+*.log
+*.tmp
+*.bak
+*.swp
+*.class
+*.pyc
+__pycache__
+*.so
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.ipynb_checkpoints/
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Директории среды разработки
+.idea/
+.project
+.settings/
+*.iml
+.targets
+.out/
+.build/
+.sbt/
+.savvydb/
+.svn/
+.vscode/
+nbproject/
+.cache/
+.ccls-cache/
+.
