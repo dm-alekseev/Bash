@@ -3,6 +3,14 @@ generate_password() {
     LC_ALL=C tr -dc 'A-Za-z0-9!@#$%^&*()_+{}|:<>?=' </dev/urandom | head -c "$length" ; echo
 }
 
+mtop () {
+        echo "=== Топ-5 процессов по CPU ==="
+        ps -eo pid,ppid,cmd,%cpu --sort=-%cpu | head -n 6
+
+        echo ""
+        echo "=== Топ-5 процессов по RAM ==="
+        ps -eo pid,ppid,cmd,%mem --sort=-%mem | head -n 6
+}
 
 
 # Запускаем tmux
